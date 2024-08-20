@@ -1,0 +1,140 @@
+body {
+  height: 100svh;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Allan";
+  font-size: 1.5rem;
+}
+body * {
+  margin: 0;
+}
+h2 {
+  transform: rotate(-1deg);
+  margin-top: 7svh;
+  padding: 0 0 7svh 0;
+}
+h3 {
+  transform: rotate(-1deg);
+}
+p {
+  font-size: 90%;
+  transform: rotate(-1deg);
+}
+i {
+  padding: 3px 10px 0px 10px;
+  cursor: pointer;
+}
+#top {
+  position: relative;
+  top: -20svh;
+}
+/* HEADER COMEÇO*/
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.header * div {
+  position: relative;
+}
+header {
+  background: linear-gradient(
+    109.6deg,
+    rgb(148, 233, 194) 11.2%,
+    rgb(224, 235, 186) 91.1%
+  );
+  height: 15svh;
+  box-shadow: 2px 1px 4px rgb(206, 206, 206);
+  display: flex;
+}
+header nav {
+  display: flex;
+  width: 70%;
+  min-height: 100%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(69, 80, 71);
+  transform: rotate(-0.5deg);
+}
+a:active {
+  color: rgb(78, 72, 72);
+}
+.nav-top {
+  width: 20%;
+  line-height: 15svh;
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease;
+}
+.nav-top:hover {
+  background: rgba(255, 47, 64, 0.809);
+  transition: all 1s ease;
+}
+
+/* HEADER FIM */
+
+/* MAIN COMEÇO */
+
+main {
+  max-width: 80%;
+  margin: 20svh auto 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+}
+main > img {
+  object-fit: cover;
+  object-position: 8px;
+}
+.itens {
+  padding: 3px 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3svw;
+  margin-bottom: 20px;
+  height: 163svh;
+  overflow-y: hidden;
+}
+.container {
+  box-shadow: 0px 2px 5px gainsboro;
+  width: 20%;
+  height: 50svh;
+  transition: all 1s ease;
+}
+.container:hover {
+  width: 21%;
+  height: 52svh;
+  padding: 2svh 0 0 1svw;
+  transition: all 1s ease;
+}
+.container img {
+  height: 200px;
+}
+.container > * {
+  padding: 5px 0px 5px 10px;
+}
+.container > div {
+  display: flex;
+  justify-content: space-between;
+}
+.itens:nth-child(1) {
+  height: 48svh;
+}
+
+/* FIM DO MAIN */
+
+/* COMEÇO DO FOOTER */
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
