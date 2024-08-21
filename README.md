@@ -1,2 +1,2 @@
-# fast-burguer
-Site de uma cadeia de restaurantes de fast food voltada a hambúrgueres.
+# passiflora
+Site de uma floricultura fictícia chamada Passiflora
